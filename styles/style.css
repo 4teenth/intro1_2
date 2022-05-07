@@ -1,0 +1,62 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    border: 2px solid;
+    /* background-color: blueviolet; */
+}
+
+li {
+    background-color: blueviolet;
+}
+
+.third_3 {
+    background-color: brown;
+}
+
+#num007 {
+    color: palevioletred;
+}
+
+ul li {
+    font-size: 50px;
+}
+
+.box {
+    border: 3px solid blue;
+    text-align: center;
+}
+
+ol > li {
+    font-style: italic;
+    color: white;
+}
+
+div + p {
+    background-color: paleturquoise;
+    text-transform: uppercase;
+}
+
+img[src="https://www.researchgate.net/publication/344603358/figure/fig1/AS:945655560286208@1602473263829/Example-of-Cat-Meme_Q640.jpg"] {
+    width: 100px;
+}
+
+h3:hover {
+    background-color: coral;
+    color: chartreuse;
+}
+
+.check, span, .box {
+    text-transform: uppercase;
+    color:burlywood;
+    background-color: aqua;
+}
+
+.important {
+    color: brown!important;
+}
+
+.important {
+    color: blue;
+}
