@@ -4,7 +4,6 @@
 
 header {
     border: 2px solid;
-    /* background-color: blueviolet; */
 }
 
 li {
@@ -17,6 +16,11 @@ li {
 
 #num007 {
     color: palevioletred;
+    text-align: center;
+}
+
+.the-block {
+    width: 700px;
 }
 
 ul li {
@@ -30,19 +34,31 @@ ul li {
 
 ol > li {
     font-style: italic;
-    color: white;
+    color: orangered;
 }
 
 div + p {
-    background-color: paleturquoise;
+    background-color: green;
     text-transform: uppercase;
+    color: whitesmoke;
 }
+/* ----------Try styles below! Look the difference-------- */
+/* ol > p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+} */
+/* ----------Try styles below! Look the difference-------- */
+/* ol p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+} */
 
 img[src="https://www.researchgate.net/publication/344603358/figure/fig1/AS:945655560286208@1602473263829/Example-of-Cat-Meme_Q640.jpg"] {
     width: 100px;
+    margin-left: 150px;
 }
 
-h3:hover {
+.box p:hover {
     background-color: coral;
     color: chartreuse;
 }
